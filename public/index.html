@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SARL I3E — Installateur photovoltaïque certifié RGE à Saint-Laurent-du-Var. Installation de panneaux solaires pour particuliers et professionnels en région PACA.">
+  <meta name="keywords" content="photovoltaïque, panneaux solaires, RGE, installation solaire, PACA, Saint-Laurent-du-Var, I3E">
+  <meta property="og:title" content="SARL I3E — Installation Photovoltaïque d'Excellence">
+  <meta property="og:description" content="Installateur certifié RGE depuis 2009 — Particuliers & Professionnels — Région PACA">
+  <meta property="og:type" content="website">
+  <title>SARL I3E — Installation Photovoltaïque d'Excellence</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- ══ NAVIGATION ══ -->
+<div id="nav-wrapper">
+  <div class="nav-topbar">
+    <a href="tel:0610847544">📞 06 10 84 75 44</a>
+    <span class="sep">|</span>
+    <a href="mailto:i3e@sfr.fr">✉ i3e@sfr.fr</a>
+    <span class="sep">|</span>
+    <a href="#contact">📍 Saint-Laurent-du-Var (06)</a>
+    <span class="sep">|</span>
+    <a href="#expertise"><span style="color:var(--accent)">●</span>&nbsp; Certifié RGE</a>
+  </div>
+  <div class="nav-pill-wrap">
+    <nav class="nav-pill">
+      <div class="nav-pill-logo">I3<span>E</span></div>
+      <ul class="nav-pill-links">
+        <li><a href="#galerie"      data-section="galerie">Réalisations</a></li>
+        <li><a href="#expertise"    data-section="expertise">Expertise</a></li>
+        <li><a href="#process"      data-section="process">Méthode</a></li>
+        <li><a href="#engagements"  data-section="engagements">Engagements</a></li>
+        <li><a href="#temoignages"  data-section="temoignages">Avis</a></li>
+        <li><a href="#contact" class="nav-pill-cta">Devis gratuit</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- Burger mobile -->
+<div class="nav-burger" id="burger" onclick="toggleMenu()">
+  <span></span><span></span><span></span>
+</div>
+<div class="nav-mobile" id="mobileMenu">
+  <a href="#galerie"     onclick="toggleMenu()">Réalisations</a>
+  <a href="#expertise"   onclick="toggleMenu()">Expertise</a>
+  <a href="#process"     onclick="toggleMenu()">Méthode</a>
+  <a href="#engagements" onclick="toggleMenu()">Engagements</a>
+  <a href="#temoignages" onclick="toggleMenu()">Avis clients</a>
+  <a href="#contact" class="mobile-cta" onclick="toggleMenu()">Devis gratuit</a>
+</div>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Installation Photovoltaïque Professionnelle</div>
+    <h1>L'énergie solaire,<br>installée avec <em>expertise</em></h1>
+    <p class="hero-desc">
+      Spécialiste certifié RGE de l'installation de panneaux photovoltaïques depuis 2009,
+      la SARL I3E accompagne particuliers et professionnels vers l'autonomie énergétique
+      avec rigueur et transparence.
+    </p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Demander un devis</a>
+      <a href="#process" class="btn-ghost">Notre méthode</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num">1 200+</div><div class="stat-label">Installations réalisées</div></div>
+      <div><div class="stat-num">15 ans</div><div class="stat-label">D'expérience terrain</div></div>
+      <div><div class="stat-num">98 %</div><div class="stat-label">Clients satisfaits</div></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="sun-ring"></div>
+    <div class="sun-ring"></div>
+    <div class="sun-ring"></div>
+    <div class="sun-core"></div>
+  </div>
+</section>
+
+<!-- ══ GALERIE ══ -->
+<section id="galerie">
+  <div class="galerie-header reveal">
+    <div class="section-label center">Nos réalisations</div>
+    <h2>Des installations <em>soignées</em></h2>
+    <p>Chaque chantier reflète notre exigence : pose propre, intégration architecturale réussie et performance optimale dès le premier jour.</p>
+  </div>
+  <div class="gallery-masonry reveal">
+    <div class="gal-item" onclick="openLightbox(0)">
+      <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=900&q=80" alt="Panneaux solaires toiture maison individuelle" loading="lazy">
+      <div class="gal-overlay"><span class="gal-label">Résidentiel — Villa</span></div>
+    </div>
+    <div class="gal-item" onclick="openLightbox(1)">
+      <img src="https://images.unsplash.com/photo-1566093097221-ac2335b09e70?w=800&q=80" alt="Installation photovoltaïque toiture tuiles" loading="lazy">
+      <div class="gal-overlay"><span class="gal-label">Résidentiel — Tuiles</span></div>
+    </div>
+    <div class="gal-item" onclick="openLightbox(2)">
+      <img src="https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=700&q=80" alt="Panneaux solaires toiture industrielle" loading="lazy">
+      <div class="gal-overlay"><span class="gal-label">Industriel — Entrepôt</span></div>
+    </div>
+    <div class="gal-item" onclick="openLightbox(3)">
+      <img src="https://images.unsplash.com/photo-1548337138-e87d889cc369?w=700&q=80" alt="Ombrière photovoltaïque parking" loading="lazy">
+      <div class="gal-overlay"><span class="gal-label">Ombrière parking</span></div>
+    </div>
+    <div class="gal-item" onclick="openLightbox(4)">
+      <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=900&q=80" alt="Installation panneaux solaires tertiaire" loading="lazy">
+      <div class="gal-overlay"><span class="gal-label">Tertiaire — Bureau</span></div>
+    </div>
+    <div class="gal-item" onclick="openLightbox(5)">
+      <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80" alt="Champ de panneaux photovoltaïques agricole" loading="lazy">
+      <div class="gal-overlay"><span class="gal-label">Agricole — Hangar</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+  <button id="lb-close" onclick="closeLightbox()">✕</button>
+  <button id="lb-prev"  onclick="lbPrev()">‹</button>
+  <img id="lb-img" src="" alt="Réalisation I3E">
+  <button id="lb-next"  onclick="lbNext()">›</button>
+  <div id="lb-caption"></div>
+</div>
+
+<!-- ══ EXPERTISE ══ -->
+<section id="expertise">
+  <div class="expertise-layout">
+    <div class="expertise-intro reveal">
+      <div class="section-label">Notre savoir-faire</div>
+      <h2>Une expertise <em>reconnue</em> et certifiée</h2>
+      <p>Chez I3E, chaque installation est réalisée par des techniciens qualifiés, formés aux dernières technologies photovoltaïques. Nos équipes maîtrisent l'ensemble de la chaîne : du dimensionnement au raccordement.</p>
+      <p>Nous travaillons exclusivement avec des équipements de première gamme — panneaux monocristallins haute efficacité, onduleurs Fronius et SMA, systèmes de monitoring en temps réel.</p>
+      <div class="certif-badges">
+        <span class="badge">✓ Certifié RGE</span>
+        <span class="badge">✓ QualiPV</span>
+        <span class="badge">✓ AISF</span>
+        <span class="badge">✓ Consuel</span>
+      </div>
+    </div>
+    <div class="expertise-cards reveal">
+      <div class="exp-card"><div class="exp-icon">🏠</div><div><div class="exp-title">Résidentiel</div><div class="exp-desc">De 3 à 36 kWc — audit énergétique, conception sur-mesure, installation propre et raccordement Enedis dans les délais.</div></div></div>
+      <div class="exp-card"><div class="exp-icon">🏭</div><div><div class="exp-title">Industriel & Tertiaire</div><div class="exp-desc">Grandes toitures, ombrières de parking, autoconsommation collective. Études de rentabilité complètes incluses.</div></div></div>
+      <div class="exp-card"><div class="exp-icon">🔋</div><div><div class="exp-title">Stockage & Autonomie</div><div class="exp-desc">Intégration de batteries lithium, gestion intelligente de l'énergie et pilotage via application mobile.</div></div></div>
+      <div class="exp-card"><div class="exp-icon">🔧</div><div><div class="exp-title">Maintenance & SAV</div><div class="exp-desc">Contrats de maintenance préventive, nettoyage professionnel, interventions garanties sous 48h.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROCESS ══ -->
+<section id="process">
+  <div class="process-header reveal">
+    <div class="section-label center">Notre méthode</div>
+    <h2>Un accompagnement <em>complet</em></h2>
+    <p>De la première étude jusqu'à la mise en service, nous gérons chaque étape avec méthode et transparence.</p>
+  </div>
+  <div class="steps reveal">
+    <div class="step"><div class="step-num">01</div><div class="step-icon">🔍</div><div class="step-title">Étude & Audit</div><div class="step-desc">Visite technique gratuite, analyse de votre consommation, évaluation du potentiel solaire et simulation de rentabilité.</div></div>
+    <div class="step"><div class="step-num">02</div><div class="step-icon">📐</div><div class="step-title">Conception</div><div class="step-desc">Dimensionnement précis, sélection des équipements, plan d'intégration architecturale et dossier administratif.</div></div>
+    <div class="step"><div class="step-num">03</div><div class="step-icon">⚡</div><div class="step-title">Installation</div><div class="step-desc">Pose par nos techniciens certifiés en 1 à 3 jours, câblage soigné, test de mise en service et formation.</div></div>
+    <div class="step"><div class="step-num">04</div><div class="step-icon">📊</div><div class="step-title">Suivi & Support</div><div class="step-desc">Raccordement Enedis, activation des aides financières, monitoring en temps réel et contrat de maintenance.</div></div>
+  </div>
+</section>
+
+<!-- ══ ENGAGEMENTS ══ -->
+<section id="engagements">
+  <div class="eng-layout">
+    <div class="eng-text reveal">
+      <div class="section-label">Nos engagements</div>
+      <h2>La qualité <em>sans compromis</em></h2>
+      <p>Nous avons bâti notre réputation sur des principes simples : transparence totale, respect des délais et excellence de l'exécution.</p>
+      <div class="eng-list">
+        <div class="eng-item"><div class="eng-check">✓</div><div><div class="eng-item-title">Devis détaillé et transparent</div><div class="eng-item-desc">Pas de coûts cachés. Chaque ligne est expliquée clairement avant signature.</div></div></div>
+        <div class="eng-item"><div class="eng-check">✓</div><div><div class="eng-item-title">Respect strict des délais</div><div class="eng-item-desc">Nous nous engageons contractuellement sur les dates de pose et de raccordement.</div></div></div>
+        <div class="eng-item"><div class="eng-check">✓</div><div><div class="eng-item-title">Équipements de première gamme</div><div class="eng-item-desc">Marques sélectionnées pour leur fiabilité, leurs garanties et leur durabilité.</div></div></div>
+        <div class="eng-item"><div class="eng-check">✓</div><div><div class="eng-item-title">Gestion complète des démarches</div><div class="eng-item-desc">Déclaration préalable, CACSI, demande de raccordement — nous gérons tout.</div></div></div>
+      </div>
+    </div>
+    <div class="garanties-box reveal">
+      <h3>Nos <em>garanties</em></h3>
+      <div class="garantie-row"><span class="garantie-label">Garantie décennale</span><span class="garantie-val">10 ans</span></div>
+      <div class="garantie-row"><span class="garantie-label">Garantie panneaux fabricant</span><span class="garantie-val">25 ans</span></div>
+      <div class="garantie-row"><span class="garantie-label">Garantie performance linéaire</span><span class="garantie-val">25 ans</span></div>
+      <div class="garantie-row"><span class="garantie-label">Garantie onduleur</span><span class="garantie-val">10 ans</span></div>
+      <div class="garantie-row"><span class="garantie-label">SAV & intervention sur site</span><span class="garantie-val">48 h</span></div>
+      <div class="garantie-row"><span class="garantie-label">Responsabilité civile pro</span><span class="garantie-val">Assurée</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TÉMOIGNAGES ══ -->
+<section id="temoignages">
+  <div class="temo-header reveal">
+    <div class="section-label center">Témoignages</div>
+    <h2>Ce que disent <em>nos clients</em></h2>
+  </div>
+  <div class="temo-grid reveal">
+    <div class="temo-card"><div class="temo-stars">★★★★★</div><div class="temo-text">« Du premier contact à la mise en service, tout a été parfaitement maîtrisé. L'équipe est ponctuelle, soignée et très pédagogue. Je recommande vivement. »</div><div class="temo-author"><div class="temo-avatar">👤</div><div><div class="temo-name">Michel & Isabelle D.</div><div class="temo-loc">Particuliers — Aix-en-Provence</div></div></div></div>
+    <div class="temo-card"><div class="temo-stars">★★★★★</div><div class="temo-text">« Étude sérieuse, devis honnête, installation impeccable. Les démarches administratives ont été entièrement prises en charge. Économies au rendez-vous dès le premier mois. »</div><div class="temo-author"><div class="temo-avatar">👤</div><div><div class="temo-name">SCI Les Oliviers</div><div class="temo-loc">Investisseur — Toulon</div></div></div></div>
+    <div class="temo-card"><div class="temo-stars">★★★★★</div><div class="temo-text">« Nous avons équipé notre entrepôt de 800 m² en ombrière. I3E a su gérer la complexité du projet avec un professionnalisme remarquable. ROI atteint en 6 ans. »</div><div class="temo-author"><div class="temo-avatar">🏭</div><div><div class="temo-name">Logistique Méditerranée</div><div class="temo-loc">Entreprise — Marseille</div></div></div></div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="contact-layout">
+    <div class="contact-info reveal">
+      <div class="section-label">Contact</div>
+      <h2>Parlons de <em>votre projet</em></h2>
+      <p>Un devis personnalisé est gratuit et sans engagement. Notre chargé d'études vous répond sous 24 heures ouvrées.</p>
+      <div class="contact-items">
+        <div class="contact-item"><div class="contact-item-icon">📞</div><div><div class="contact-item-title">Téléphone</div><div class="contact-item-val">06 10 84 75 44</div></div></div>
+        <div class="contact-item"><div class="contact-item-icon">✉️</div><div><div class="contact-item-title">E-mail</div><div class="contact-item-val">i3e@sfr.fr</div></div></div>
+        <div class="contact-item"><div class="contact-item-icon">📍</div><div><div class="contact-item-title">Agence principale</div><div class="contact-item-val">2 allée des Imprimeurs<br>06700 Saint-Laurent-du-Var<br>Interventions PACA & Région Sud</div></div></div>
+        <div class="contact-item"><div class="contact-item-icon">🕐</div><div><div class="contact-item-title">Horaires</div><div class="contact-item-val">Lun–Ven : 8h–18h | Sam : 9h–12h</div></div></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <!-- Formulaire avec name= pour le backend Node.js -->
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-group"><label>Prénom *</label><input type="text" name="prenom" placeholder="Jean" required></div>
+          <div class="form-group"><label>Nom *</label><input type="text" name="nom" placeholder="Dupont" required></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Téléphone</label><input type="tel" name="telephone" placeholder="06 XX XX XX XX"></div>
+          <div class="form-group"><label>E-mail *</label><input type="email" name="email" placeholder="jean@email.fr" required></div>
+        </div>
+        <div class="form-group">
+          <label>Type de projet</label>
+          <select name="projet">
+            <option value="">Sélectionnez...</option>
+            <option>Résidentiel — Maison individuelle</option>
+            <option>Résidentiel — Copropriété</option>
+            <option>Professionnel — Tertiaire</option>
+            <option>Professionnel — Industriel</option>
+            <option>Agricole</option>
+            <option>Maintenance / SAV</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Votre message *</label>
+          <textarea name="message" placeholder="Décrivez votre projet, la surface de toiture, votre consommation annuelle..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Envoyer ma demande →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">I3<span>E</span></div>
+      <p class="footer-desc">Installateur photovoltaïque certifié RGE, au service des particuliers et des professionnels de la région PACA depuis 2009.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Résidentiel</a></li>
+        <li><a href="#">Industriel</a></li>
+        <li><a href="#">Stockage batterie</a></li>
+        <li><a href="#">Ombrières</a></li>
+        <li><a href="#">Maintenance</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Entreprise</h4>
+      <ul>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Nos certifications</a></li>
+        <li><a href="#">Références chantiers</a></li>
+        <li><a href="#">Recrutement</a></li>
+        <li><a href="#">Actualités</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Informations</h4>
+      <ul>
+        <li><a href="#">Aides & Subventions</a></li>
+        <li><a href="#">MaPrimeRénov'</a></li>
+        <li><a href="#">TVA à 10%</a></li>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Confidentialité</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 SARL I3E — 2 allée des Imprimeurs, 06700 Saint-Laurent-du-Var — Tous droits réservés</span>
+    <span class="rge-label">✓ Certifié RGE QualiPV</span>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
